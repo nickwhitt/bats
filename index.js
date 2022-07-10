@@ -1,4 +1,4 @@
-import { Batter } from './models/index.js';
+import { Batter } from './models';
 
 (async () => {
   Batter.findOne().then((b) => console.debug(b?.toJSON()));

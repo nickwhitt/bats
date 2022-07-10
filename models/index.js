@@ -1,5 +1,5 @@
 import { Sequelize } from 'sequelize';
-import BatterModel from './batter.js';
+import BatterModel from './batter';
 
 const config = {
   development: { dialect: 'sqlite', storage: './sqlite3.db' },
